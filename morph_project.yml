@@ -12,3 +12,5 @@ build:
 
 deployment:
     provider: aws # aws or gcp (default is aws)
+    aws:
+        region: ap-northeast-1
