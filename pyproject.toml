@@ -11,6 +11,9 @@ packages = [
 [tool.poetry.dependencies]
 python = ">=3.9,<3.13"
 morph-data = "0.3.0"
+openai = "^1.75.0"
+langchain = "^0.3.23"
+langchain-openai = "^0.3.14"
 
 [build-system]
 requires = ["poetry-core"]
